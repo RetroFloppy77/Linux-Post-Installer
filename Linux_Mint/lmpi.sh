@@ -116,7 +116,7 @@ apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libs
 echo "Installazione: Librerie di sviluppo SDL3"
 # libsdl2-dev e associate: Kit di sviluppo completo per la creazione di videogiochi
 # e applicazioni multimediali ad alte prestazioni in C/C++.
-apt install libsdl3-dev libsdl3-image-dev libsdl3-ttf-dev
+apt install libsdl3-dev libsdl3-image-dev libsdl3-ttf-dev -y
 
 echo "Installazione: Pacchetti di sistema essenziali per Python 3..."
 # python3-pip, venv, full, dev per la gestione completa di Python.
