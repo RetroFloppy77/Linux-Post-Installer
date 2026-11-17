@@ -113,6 +113,11 @@ echo "Installazione: Librerie di sviluppo SDL2 complete (SDL2, image, mixer, ttf
 # e applicazioni multimediali ad alte prestazioni in C/C++.
 apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libsdl2-gfx-dev libsdl2-net-dev -y
 
+echo "Installazione: Librerie di sviluppo SDL3"
+# libsdl2-dev e associate: Kit di sviluppo completo per la creazione di videogiochi
+# e applicazioni multimediali ad alte prestazioni in C/C++.
+apt install libsdl3-dev libsdl3-image-dev libsdl3-ttf-dev
+
 echo "Installazione: Pacchetti di sistema essenziali per Python 3..."
 # python3-pip, venv, full, dev per la gestione completa di Python.
 apt install python3-pip python3-venv python3-full python3-dev -y
